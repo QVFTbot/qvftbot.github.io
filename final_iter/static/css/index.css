@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f6f0ff;
+}
+
+nav {
+  padding-top: 3%;
+  position: unset;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  padding-left: 100px;
+  padding-top: 40px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 59%;
+  margin: 0;
+}
+
+a {
+  color: black;
+  padding: 0.5em 1.5em;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  background: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section {
+  height: 300px;
+  font-size: 20px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.hero-section h2 {
+  font-size: 50px;
+}
+
+.another-section {
+  height: 350px;
+  display: flex;
+  background-image: url("/assets/gradient.jpg");
+  justify-content: center;
+}
+
+.last-section {
+  height: 250px;
+  display: flex;
+  background-color: #f6f0ff;
+  justify-content: center;
+}
+
+.another-section h3 {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  font-size: 55px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+.images .row {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.images img {
+  width: 100%;
+  height: 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.content {
+  text-align: center;
+  width: 30em;
+  color: #f6f0ff;
+}
